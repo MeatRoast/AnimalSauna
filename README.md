@@ -1,0 +1,2 @@
+# AnimalSauna
+Discord AnimalSauna bot
