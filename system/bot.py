@@ -30,8 +30,6 @@ async def on_ready():
     print('')
     print("------------------")
 
-#봇 상메 변경
-
 #봇 서비스 실행
 def run_bot():
     global chat_log_file  # 전역 변수로 설정

@@ -7,7 +7,7 @@ bot = commands.Bot(intents=intents)
 
 status = cycle(
     [
-        'Copyright ©2021-2024 MeatRoast. All rights reserve',
+        'Copyright ©2021-2024 MeatRoast. All rights reserve'
     ]
 )
 

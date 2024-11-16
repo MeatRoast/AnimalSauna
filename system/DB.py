@@ -1,12 +1,15 @@
 import aiomysql
+from dotenv import dotenv_values
+
+env_variables = dotenv_values("./system/private/.env") # env파일 봇 TOKEN을 가져옴
 
 class DB:
     def __init__(self):
-        self.host = ''
+        self.host = f'{env_variables["DB_IP"]}'
         self.port = 3306
-        self.user = ''
-        self.password = ''
-        self.database = ''
+        self.user = f'{env_variables["DB_USER"]}'
+        self.password = f'{env_variables["DB_PASSWORD"]}'
+        self.database = 'atten'
         self.pool = None
 
     async def connect(self):
