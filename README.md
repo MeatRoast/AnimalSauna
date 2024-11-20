@@ -4,7 +4,7 @@
 2. 천천히 개발하여 업데이트될 예정입니다
 3. python3.12.6 / mysql8.4 으로 개발되었습니다
 4. 테스트 서버 및 운영 서버 OS Rocky Linux 8.10 입니다.
-5. python_package_pip 파일로 통하여 package install 가능합니다 ( Windows 추후 업로드 예정 )
+5. python_package_pip 파일로 통하여 package install 가능합니다.
 6. 실행파일 start.sh / start.bat 올려드렸습니다.
 
 ## 업데이트 현황

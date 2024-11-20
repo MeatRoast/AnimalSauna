@@ -3,5 +3,5 @@ title bot start
 cls
 :start
 cls
-py index.py
+py ./index.py
 pause
