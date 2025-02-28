@@ -14,3 +14,8 @@
 4. 파일 자동 다운로드
 5. messages 삭제, 수정 기능 추가
 6. event 등 log 서비스 제작
+
+
+개발중단
+
+Copyright ©2025 MeatRoast(Dohwan Kim). All rights reserve
